@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-gymm
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:sbudhwar-1-tenant-devfile-sample-gymm
+      - image: quay.io/redhat-appstudio/user-workload@sha256:8d20dd379d1e0fe93986d70c65ade449867b1f314352919aa3d66b6200a52bb8
         name: my-nodejs
         ports:
         - containerPort: 3001
